@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    font-size: 50px;
+}
+div{
+    background-color: rgba(51,255,0,0.7);
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+div #numparticipantes{
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+div #sortear{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+
+}
+div #sortear:hover{
+    cursor: pointer;
+}
+.error{
+    color: red;
+}
+.ganador{
+    color: green;
+}
+#confeti{
+    z-index: -1;
+}
+.off{
+    display: none;
+}
+.on{
+    display: block;
+    position: fixed;
+}
